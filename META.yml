@@ -6,7 +6,7 @@ build_requires:
   Test::More: 0.40
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3624'
+generated_by: 'Module::Build version 0.3607'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,17 +20,21 @@ no_index:
 provides:
   Task::BeLike::BURAK:
     file: lib/Task/BeLike/BURAK.pm
-    version: 0.10
+    version: 0.11
 requires:
   Acme::CPANAuthors::Turkish: 0.20
   App::Sys::Info: 0.13
   CGI::Auth::Basic: 1.21
+  DateTime: 0
+  DateTime::Format::Mail: 0
+  DateTime::Format::W3CDTF: 0
   Devel::Size: 0
   Device::CableModem::Motorola::SB4200: 0.10
   File::HomeDir: 0
   GD::SecurityImage: 1.70
   GD::Thumbnail: 1.35
   HTML::Parser: 0
+  LWP::UserAgent: 0
   Lingua::TR::ASCII: 0.11
   MP3::M3U::Parser: 2.30
   Mojolicious: 0
@@ -46,8 +50,12 @@ requires:
   Text::Template::Simple: 0.83
   Time::Elapsed: 0.31
   Tk: 0
+  Win32::API: 0
+  Win32::ASP::CGI: 0.13
+  XML::RSS: 0
+  XML::Simple: 0
   criticism: 1.02
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://bitbucket.org/burak/cpan-task-belike-burak/
-version: 0.10
+version: 0.11

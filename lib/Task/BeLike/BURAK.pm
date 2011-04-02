@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 1;
 
@@ -21,12 +21,20 @@ None.
 
 =head1 DESCRIPTION
 
-This document describes version C<0.10> of C<Task::BeLike::BURAK>
-released on C<20 February 2011>.
+This document describes version C<0.11> of C<Task::BeLike::BURAK>
+released on C<3 April 2011>.
 
 This is a tool to install module I use.
 
 =head1 PREREQUISITIES
+
+=head2 DATE MANIPULATION
+
+=head3 L<DateTime>
+
+=head3 L<DateTime::Format::W3CDTF>
+
+=head3 L<DateTime::Format::Mail>
 
 =head2 MY MODULES
 
@@ -88,11 +96,19 @@ System specific.
 
 =head3 L<HTML::Parser>
 
+=head3 L<LWP::UserAgent>
+
 =head3 L<Mojolicious>
 
 =head2 SYSTEM SPECIFIC
 
 =head3 L<Win32::API>
+
+=head2 XML
+
+=head3 L<XML::RSS>
+
+=head3 L<XML::Simple>
 
 =head1 AUTHOR
 
@@ -105,7 +121,7 @@ Copyright 2011 Burak Gursoy. All rights reserved.
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.10.0 or, 
+it under the same terms as Perl itself, either Perl version 5.12.1 or, 
 at your option, any later version of Perl 5 you may have available.
 
 =cut
