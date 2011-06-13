@@ -1,0 +1,87 @@
+{
+   "abstract" : "Installs all modules I (BURAK) like",
+   "author" : [
+      "Burak Gursoy <burak@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-BURAK",
+   "no_index" : {
+      "directory" : [
+         "monolithic_version",
+         "builder",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.40"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Acme::CPANAuthors::Turkish" : "0.20",
+            "App::Sys::Info" : "0.13",
+            "CGI::Auth::Basic" : "1.21",
+            "DateTime" : 0,
+            "DateTime::Format::Mail" : 0,
+            "DateTime::Format::W3CDTF" : 0,
+            "Devel::Size" : "0.73",
+            "Device::CableModem::Motorola::SB4200" : "0.10",
+            "File::HomeDir" : 0,
+            "GD::SecurityImage" : "1.70",
+            "GD::Thumbnail" : "1.35",
+            "HTML::Parser" : 0,
+            "LWP::UserAgent" : 0,
+            "Lingua::TR::ASCII" : "0.11",
+            "MP3::M3U::Parser" : "2.30",
+            "Mojolicious" : 0,
+            "PHP::Session::DBI" : "0.24",
+            "Parse::HTTP::UserAgent" : "0.20",
+            "Perl::Tidy" : 0,
+            "Scalar::Util::Reftype" : "0.40",
+            "Software::License" : 0,
+            "Task::Lingua::Any::Numbers" : "0.17",
+            "Term::ReadLine::Perl" : 0,
+            "Test::Pod" : 0,
+            "Test::Pod::Coverage" : 0,
+            "Test::Sys::Info" : "0.20",
+            "Text::Table" : 0,
+            "Text::Template::Simple" : "0.83",
+            "Time::Elapsed" : "0.31",
+            "XML::RSS" : 0,
+            "XML::Simple" : 0,
+            "criticism" : "1.02"
+         }
+      }
+   },
+   "provides" : {
+      "Task::BeLike::BURAK" : {
+         "file" : "lib/Task/BeLike/BURAK.pm",
+         "version" : "0.13"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://bitbucket.org/burak/cpan-task-belike-burak/"
+      }
+   },
+   "version" : "0.13"
+}

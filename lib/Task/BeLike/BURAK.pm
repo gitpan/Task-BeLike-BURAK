@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.11';
+$VERSION = '0.13';
 
 1;
 
@@ -21,8 +21,8 @@ None.
 
 =head1 DESCRIPTION
 
-This document describes version C<0.11> of C<Task::BeLike::BURAK>
-released on C<3 April 2011>.
+This document describes version C<0.13> of C<Task::BeLike::BURAK>
+released on C<13 June 2011>.
 
 This is a tool to install module I use.
 
@@ -82,15 +82,15 @@ System specific.
 
 =head3 L<Perl::Tidy>
 
+=head3 L<Software::License>
+
+=head3 L<Term::ReadLine::Perl>
+
 =head3 L<Test::Pod>
 
 =head3 L<Test::Pod::Coverage>
 
 =head3 L<Text::Table>
-
-=head2 GUI
-
-=head3 L<Tk>
 
 =head2 WEB
 
@@ -121,7 +121,7 @@ Copyright 2011 Burak Gursoy. All rights reserved.
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.12.1 or, 
+it under the same terms as Perl itself, either Perl version 5.12.3 or, 
 at your option, any later version of Perl 5 you may have available.
 
 =cut
