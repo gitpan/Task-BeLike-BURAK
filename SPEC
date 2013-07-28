@@ -2,7 +2,6 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
 {
     module_name => 'Task::BeLike::BURAK',
     requires    => {
-        ( $] < 5.006 ? ( 'warnings::compat'  => 0 ) : () ),
         # mine, my own, my precioussssss
         'Acme::CPANAuthors::Turkish'           => '0.20',
         'App::Sys::Info'                       => '0.13', # Will pull-in all Sys::Info::*
@@ -24,6 +23,7 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         ) : () ),
         # utility belt
         'criticism'                            => '1.02',
+        'Capture::Tiny'                        => '0.22',
         'Devel::Size'                          => '0.73',
         'Perl::Tidy'                           => 0,
         'Software::License'                    => 0,
@@ -35,27 +35,31 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'Mojolicious'                          => 0,
         # misc
         'File::HomeDir'                        => 0,
-
-        # These are actually needed for an xmlfeed I generate for my PerlMonks
-        # account
-        'DateTime'                             => 0,
-        'DateTime::Format::Mail'               => 0,
-        'DateTime::Format::W3CDTF'             => 0,
         'LWP::UserAgent'                       => 0,
-        'XML::RSS'                             => 0,
-        'XML::Simple'                          => 0,
+        'LWP::Protocol::https'                 => 0,
 
         # Fix cpan annoyment
         'Term::ReadLine::Perl'                 => 0,
+        # CPAN Reports
+        'Task::CPAN::Reporter'                 => 0,
 
         # OS-Specific
         ( IS_WINDOWS ? (
         'Win32::API'                           => 0,
         ) : () ),
+
+        ( $] >= 5.012 ? (
+        'Unicode::Casing'                      => '0.12',
+        ) : ()),
     },
     meta_merge => {
         resources => {
             repository => 'http://bitbucket.org/burak/cpan-task-belike-burak/',
         },
+    },
+    BUILDER => {
+        change_versions                  => 1,
+        copyright_first_year             => 2011,
+        add_pod_author_copyright_license => 1,
     },
 }

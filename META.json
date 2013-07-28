@@ -4,7 +4,7 @@
       "Burak Gursoy <burak@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -17,7 +17,8 @@
       "directory" : [
          "monolithic_version",
          "builder",
-         "t"
+         "t",
+         "xt"
       ]
    },
    "prereqs" : {
@@ -28,7 +29,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -36,34 +37,33 @@
             "Acme::CPANAuthors::Turkish" : "0.20",
             "App::Sys::Info" : "0.13",
             "CGI::Auth::Basic" : "1.21",
-            "DateTime" : 0,
-            "DateTime::Format::Mail" : 0,
-            "DateTime::Format::W3CDTF" : 0,
+            "Capture::Tiny" : "0.22",
             "Devel::Size" : "0.73",
             "Device::CableModem::Motorola::SB4200" : "0.10",
-            "File::HomeDir" : 0,
+            "File::HomeDir" : "0",
             "GD::SecurityImage" : "1.70",
             "GD::Thumbnail" : "1.35",
-            "HTML::Parser" : 0,
-            "LWP::UserAgent" : 0,
+            "HTML::Parser" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
             "Lingua::TR::ASCII" : "0.11",
             "MP3::M3U::Parser" : "2.30",
-            "Mojolicious" : 0,
+            "Mojolicious" : "0",
             "PHP::Session::DBI" : "0.24",
             "Parse::HTTP::UserAgent" : "0.20",
-            "Perl::Tidy" : 0,
+            "Perl::Tidy" : "0",
             "Scalar::Util::Reftype" : "0.40",
-            "Software::License" : 0,
+            "Software::License" : "0",
+            "Task::CPAN::Reporter" : "0",
             "Task::Lingua::Any::Numbers" : "0.17",
-            "Term::ReadLine::Perl" : 0,
-            "Test::Pod" : 0,
-            "Test::Pod::Coverage" : 0,
+            "Term::ReadLine::Perl" : "0",
+            "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "0",
             "Test::Sys::Info" : "0.20",
-            "Text::Table" : 0,
+            "Text::Table" : "0",
             "Text::Template::Simple" : "0.83",
             "Time::Elapsed" : "0.31",
-            "XML::RSS" : 0,
-            "XML::Simple" : 0,
+            "Unicode::Casing" : "0.12",
             "criticism" : "1.02"
          }
       }
@@ -71,7 +71,7 @@
    "provides" : {
       "Task::BeLike::BURAK" : {
          "file" : "lib/Task/BeLike/BURAK.pm",
-         "version" : "0.13"
+         "version" : "0.17"
       }
    },
    "release_status" : "stable",
@@ -83,5 +83,5 @@
          "url" : "http://bitbucket.org/burak/cpan-task-belike-burak/"
       }
    },
-   "version" : "0.13"
+   "version" : "0.17"
 }
