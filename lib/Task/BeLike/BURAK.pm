@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.17';
+$VERSION = '0.18';
 
 1;
 
@@ -21,8 +21,8 @@ None.
 
 =head1 DESCRIPTION
 
-This document describes version C<0.17> of C<Task::BeLike::BURAK>
-released on C<28 July 2013>.
+This document describes version C<0.18> of C<Task::BeLike::BURAK>
+released on C<13 January 2014>.
 
 This is a tool to install module I use.
 
@@ -36,11 +36,11 @@ Burak Gursoy <burak@cpan.org>.
 
 =head1 COPYRIGHT
 
-Copyright 2011 - 2013 Burak Gursoy. All rights reserved.
+Copyright 2011 - 2014 Burak Gursoy. All rights reserved.
 
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.16.2 or,
+it under the same terms as Perl itself, either Perl version 5.18.1 or,
 at your option, any later version of Perl 5 you may have available.
 =cut

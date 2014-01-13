@@ -5,9 +5,9 @@ author:
 build_requires:
   Test::More: 0.40
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,10 +19,6 @@ no_index:
     - builder
     - t
     - xt
-provides:
-  Task::BeLike::BURAK:
-    file: lib/Task/BeLike/BURAK.pm
-    version: 0.17
 requires:
   Acme::CPANAuthors::Turkish: 0.20
   App::Sys::Info: 0.13
@@ -39,7 +35,6 @@ requires:
   Lingua::TR::ASCII: 0.11
   MP3::M3U::Parser: 2.30
   Mojolicious: 0
-  PHP::Session::DBI: 0.24
   Parse::HTTP::UserAgent: 0.20
   Perl::Tidy: 0
   Scalar::Util::Reftype: 0.40
@@ -49,7 +44,6 @@ requires:
   Term::ReadLine::Perl: 0
   Test::Pod: 0
   Test::Pod::Coverage: 0
-  Test::Sys::Info: 0.20
   Text::Table: 0
   Text::Template::Simple: 0.83
   Time::Elapsed: 0.31
@@ -58,4 +52,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://bitbucket.org/burak/cpan-task-belike-burak/
-version: 0.17
+version: 0.18

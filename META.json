@@ -4,7 +4,7 @@
       "Burak Gursoy <burak@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Module::Build version 0.4203",
    "license" : [
       "perl_5"
    ],
@@ -29,7 +29,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
@@ -49,7 +49,6 @@
             "Lingua::TR::ASCII" : "0.11",
             "MP3::M3U::Parser" : "2.30",
             "Mojolicious" : "0",
-            "PHP::Session::DBI" : "0.24",
             "Parse::HTTP::UserAgent" : "0.20",
             "Perl::Tidy" : "0",
             "Scalar::Util::Reftype" : "0.40",
@@ -59,19 +58,12 @@
             "Term::ReadLine::Perl" : "0",
             "Test::Pod" : "0",
             "Test::Pod::Coverage" : "0",
-            "Test::Sys::Info" : "0.20",
             "Text::Table" : "0",
             "Text::Template::Simple" : "0.83",
             "Time::Elapsed" : "0.31",
             "Unicode::Casing" : "0.12",
             "criticism" : "1.02"
          }
-      }
-   },
-   "provides" : {
-      "Task::BeLike::BURAK" : {
-         "file" : "lib/Task/BeLike/BURAK.pm",
-         "version" : "0.17"
       }
    },
    "release_status" : "stable",
@@ -83,5 +75,5 @@
          "url" : "http://bitbucket.org/burak/cpan-task-belike-burak/"
       }
    },
-   "version" : "0.17"
+   "version" : "0.18"
 }
